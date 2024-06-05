@@ -10,6 +10,8 @@ public class Solution {
             System.out.print(str);
         }
         
+        // System.out.println(str.repeat(n));
+        
         sc.close();
     }
 }
