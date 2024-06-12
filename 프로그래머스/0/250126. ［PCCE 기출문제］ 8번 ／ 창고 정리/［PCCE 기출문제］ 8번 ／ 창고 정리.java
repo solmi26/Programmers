@@ -13,7 +13,8 @@ class Solution {
                 }
             }
             if(clean_idx == -1){
-                clean_storage[num_item] = storage[i];
+             // clean_storage[num_item] = Integer.toString(num[i]); // 기존코드
+                clean_storage[num_item] = storage[i]; // 수정코드
                 clean_num[num_item] = num[i];
                 num_item += 1;
             }
