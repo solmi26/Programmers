@@ -20,13 +20,9 @@ class Solution {
                 mode = key;
                 maxValue = value;
             }else if(maxValue==value) {
-                maxValue = -1;}
+                mode = -1;}
         }
-        if(maxValue == -1){
-            return -1;
-        } else{
-            return mode;
-        }
+        return mode;
 
         
     }
