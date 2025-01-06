@@ -6,5 +6,14 @@ class Solution {
             answer += my_string.charAt(i);    
         }
         return answer;
+
+        /**
+        //StringBuilder reverse를 사용해서 풀이
+        StringBuilder sb = new StringBuilder();
+        sb.append(my_string);
+        sb.reverse();
+        
+        return sb.toString();
+        **/
     }
 }
