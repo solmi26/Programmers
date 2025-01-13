@@ -7,6 +7,12 @@ class Solution {
                 answer += my_string.charAt(i);
             }
         }
+
+        /*
+        for(int i=0; i<my_string.length(); i++){
+            answer += str[i].repeat(n);
+        }
+        */
         
         return answer;
     }
