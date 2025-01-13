@@ -9,6 +9,8 @@ class Solution {
         }
 
         /*
+        String[] str = my_string.split("");
+        
         for(int i=0; i<my_string.length(); i++){
             answer += str[i].repeat(n);
         }
