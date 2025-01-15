@@ -7,6 +7,10 @@ class Solution {
         for(String check:aeiou){
             answer = answer.replace(check,"");    
         }
+
+        /**
+         answer = my_string.replaceAll("[aeiou]", "");
+        **/
         
         return answer;
     }
