@@ -9,7 +9,7 @@ class Solution {
         }
 
         /**
-         answer = my_string.replaceAll("[aeiou]", "");
+         answer = my_string.replaceAll("[aeiou]", ""); // 정규
         **/
         
         return answer;
