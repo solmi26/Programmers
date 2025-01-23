@@ -11,5 +11,11 @@ class Solution {
         
         if(newString.contains(pat)) return 1;
         else return 0;
+
+
+        /**
+        myString = myString.replace("A", "a").replace("B", "A").replace("a", "B");
+        return myString.contains(pat) ? 1 : 0;
+        **/
     }
 }
