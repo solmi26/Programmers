@@ -1,12 +1,13 @@
-import java.util.ArrayList;
-
 class Solution {
     public int[] solution(int[] num_list, int n) {
-        ArrayList<Integer> answer = new ArrayList<>();
+        int[] answer = new int[(int) Math.ceil((double)num_list.length/n)];
+        int index = 0;
         
         for(int i=0; i<num_list.length; i+=n){
-            answer.add(num_list[i]);
+            answer[index] = num_list[i];
+            index++;
         }
-        return answer.stream().mapToInt(i->i).toArray();
+        
+        return answer;
     }
 }
